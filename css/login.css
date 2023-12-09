@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(16, 17, 22);
+}
+
+#typeUsername, #typePassword{
+    background-color: rgb(182, 178, 178);
+    border: none;
+}
+
+#typeUsername:hover, #typePassword:hover{
+    background-color: rgb(16, 17, 22);
+    color: rgba(255, 255, 255, 0.856);
+}
+
+#typeUsername:focus, #typePassword:focus{
+    background-color: rgb(16, 17, 22);
+    color: rgba(255, 255, 255, 0.856);
+}
+
+#submitlogin{
+    background-color: rgba(250, 32, 32, 0.575);
+    text-transform: uppercase;
+    border:none;
+}
+
+#submitlogin:hover{
+    color: rgba(255, 255, 255, 0.856);
+    font-size: 22px;
+}
